@@ -72,6 +72,7 @@ public class Main {
         int count = 0;
         while(count < 5) {
             player1.increaseExperience();
+            count++;
         }
         player1.increaseLevel();
         System.out.println("\nAfter gaining experience, Information of Player 1: " + player1.toString());
